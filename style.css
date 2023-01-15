@@ -1,0 +1,231 @@
+/* ---------------
+       font import
+-----------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #3A3A3A;
+    /* padding: 0 120px; */
+    /* margin: 0 120px; */
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 120px 50px 120px;
+}
+.hading-logo {
+    font-size: 24px;
+}
+.navigation ul {
+    display: flex;
+    align-items: center;
+}
+.navigation ul li {
+    margin-left: 34px;
+    list-style: none;
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    color: #3A3A3A;
+    font-weight: 600;
+}
+
+.influencer {
+    margin: 0 120px 100px 120px;
+    /* margin-bottom: 100px; */
+}
+
+.flexible-container {
+    display: flex;
+    align-items: center;
+    gap: 133px;
+
+    margin-bottom: 69px;
+}
+.flex-width-text {
+    width: 702px;
+}
+.flex-width-img {
+    height: 447px;
+    width: 607px;
+    background-image: url(./images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-size: 447px;
+    background-position: center;
+    margin-right: 12px;
+}
+
+.flex-width-img img {
+    width: 440px;
+}
+.heading-primary {
+    font-size: 52px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.btn {
+    text-decoration: none;
+    background-color: #E02C6D;
+    color: #FFFFFF;
+    padding: 10px 24px;
+
+    margin-top: 16px;
+}
+
+.btn-redius {
+    border-radius: 41px;
+}
+
+.brand-logo-container {
+    display: flex;
+    justify-content: center;
+    padding: 36px 60px;
+    gap: 60px;
+}
+
+.heading-secondary {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.collection-container{
+    margin: 0 196px 150px 196px;
+}
+.collections {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    justify-content: center;
+}
+.collection {
+    width: 329px;
+    height: 476px;
+    padding: 17px 15px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15)
+}
+.product img {
+    width: 330px;
+    height: 256px;
+    margin-bottom: 16px;
+}
+
+h3{
+    font-size: 28px;
+    margin: 0px;
+    margin-bottom: 6px;
+}
+
+h4 {
+    font-size: 24px;
+    font-weight: 400;
+    margin:0px;
+}
+
+.product-rank {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 3px;
+}
+
+.product-rank p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.product-descrip {
+    font-size: 14px;
+    width: 196px;
+    margin: 0;
+}
+.button-transparent {
+    position:absolute;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    color: #E02C6D;
+    background-color: #FFFFFF;
+    margin-top: 50px;
+    right: 110px;
+}
+.feature-product{
+    margin-bottom: 100px;
+    padding: 0 165px;
+}
+
+.flex-width img {
+    width: 404px;
+    height: 270px;
+}
+
+footer {
+    background-color: #0A0826;
+    padding: 50px 0;
+}
+
+footer h3 {
+    align-items: center;
+    font-size: 24px;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 3px;
+}
+
+footer p {
+    font-size: 14px;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 3px;
+}
+.rights {
+    margin-bottom: 16px;
+}
+.social-network {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+/* ----------
+    media > phone
+---------------- */
+
+@media only screen and (min-width: 400px) {
+    .navigation-logo {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .navigation ul {
+        display: none;
+    }
+
+    .flexible-container {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        margin: 20px 52px 100px 52px;
+    }
+    .flex-width-img {
+        width: 257px;
+        height: 257px;
+        background-size: 257px;
+        background-position: center;
+    }
+    .flex-width-img img {
+        width: 257px ;
+        height: 257px;
+    }
+    .flex-width-text{
+        align-items: center;
+    }
+    .heading-primary {
+        text-align: center;
+        font-size: 28px;
+    }
+}

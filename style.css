@@ -214,18 +214,20 @@ footer p {
 /* ----------
     media > phone
 ---------------- */
-
-@media screen and (max-width: 360px) {
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
     .navigation {
-        width: 100%;
         margin: 0 16px;
     }
     .heading-logo {
         font-size: 16px;
-        text-align: center;
+        margin: 16px auto;
     }
     .navigation ul {
         display: none;
+    }
+    .influencer {
+        margin: 0;
     }
 
     .flexible-container {
@@ -240,13 +242,13 @@ footer p {
     }
 
     .flex-width-img {
-        /* margin: 0 52px; */
-        background-size: 257px;
+        width: 100%;
+        padding: 51px 33px 16px 22px;
     }
     .flex-width-img img {
-        width: 202px ;
-        height: 190px;
-        padding: 140px 65px;
+        width: 100%;
+        /* width: 202px ;
+        height: 190px; */
     }
     .flex-width-text{
         width: 360px;
@@ -265,24 +267,23 @@ footer p {
         margin-right: 83px;
     }
     .brand-logo-container {
-        width: 80%;
-        margin-left: 42px;
-        margin-right: 42px;
+        /* margin-left: 42px;
+        margin-right: 42px; */
 
         display: flex;
         justify-content: center;
         flex-direction: row;
         flex-wrap: wrap;
-
-        /* display: grid;
-        grid-template-columns: repeat(2, 1fr); */
-
-        gap: 10px;
+        gap: 22px;
     }
-
+    .collection-container {
+        margin:0 16px 100px 16px;
+    }
     .heading-secondary {
         font-size: 16px;
+        line-height: 24px;
         text-align: center;
+        margin: 20px;
     }
     .collections{
         margin-right: 0 auto;

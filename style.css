@@ -91,6 +91,27 @@ body {
     border-radius: 41px;
 }
 
+.svg-icon {
+    width: 16px;
+    height: 13px;
+    margin: 0;
+    padding: 0;
+}
+
+.icon-white {
+    fill: #FFFFFF;
+}
+
+.icon-gold {
+    width: 11.07px;
+    height: 10.32px;
+    fill: #FB8200;
+}
+.icon-red {
+    height: 10px;
+    fill: #E02C6D;
+}
+
 .brand-logo-container {
     display: flex;
     justify-content: center;
